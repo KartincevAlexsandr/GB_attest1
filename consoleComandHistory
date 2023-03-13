@@ -1,23 +1,43 @@
-## Информация о проекте
-Необходимо организовать систему учета для питомника, в котором живут
-домашние и вьючные животные.
 
-## Задание
 1. Используя команду cat в терминале операционной системы Linux, создать
 два файла Домашние животные (заполнив файл собаками, кошками,
 хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и
-ослы), а затем объединить их. Просмотреть содержимое созданного файла.
+ослы), 
+
+    cat > animals_home
+    cat > animals_pack
+
+
+а затем объединить их. 
+
+    cat animals_home animals_pack > animals
+
+Просмотреть содержимое созданного файла.
+
+    cat animals
+
 Переименовать файл, дав ему новое имя (Друзья человека).
+
+    mv animals mans_friends
+
 
 
 2. Создать директорию, переместить файл туда.
+
+    mkdir db
+    mv mans_friends ./db
 
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
+    sudo wget https://repo.mysql.com/mysql-apt-config_0.8.24-1_all.deb
+    sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+    sudo apt-get update
+    sudo apt-get install mysql-server
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-
-5. Выложить историю команд  в терминале ubuntu
+    sudo wget -c https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+    sudo dpkg -i teamviewer_amd64.deb
+    sudo dpkg -r teamviewer
