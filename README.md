@@ -27,10 +27,3 @@
 
 
 5. Выложить историю команд  в терминале ubuntu. ссылка [ссылка](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/consoleComandHistory)
-
-6. Нарисовать [диаграмму](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/UML.drawio), в которой есть класс родительский класс, домашние
-животные и вьючные животные, в составы которых в случае домашних
-животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
-войдут: Лошади, верблюды и ослы).
-
-![UML IMAGE](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/animal.png)
