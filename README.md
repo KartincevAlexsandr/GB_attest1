@@ -9,21 +9,15 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-![IMG 1](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/1.png)
 
 2. Создать директорию, переместить файл туда.
 
-![IMG 2](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/2.png)
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-![IMG 3](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/3.png)
-![IMG 4](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/4.png)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-![IMG 5](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/image/5.png)
 
-
-5. Выложить историю команд  в терминале ubuntu. ссылка [ссылка](https://github.com/KartincevAlexsandr/GB_attest1/blob/main/consoleComandHistory)
+5. Выложить историю команд  в терминале ubuntu
