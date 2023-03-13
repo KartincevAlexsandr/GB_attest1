@@ -52,8 +52,7 @@ CREATE TABLE animal_classes
 );
 
 INSERT INTO animal_classes (Class_name)
-VALUES ('домашние'),
-('вьючные');  
+VALUES ('вьючные'),('домашние');  
 
 
 CREATE TABLE packed_animals
@@ -123,7 +122,7 @@ CREATE TABLE mice
     Genus_id int,
     Foreign KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE
 );
-INSERT INTO hamsters (Name, Birthday, Commands, Genus_id)
+INSERT INTO mice (Name, Birthday, Commands, Genus_id)
 VALUES ('снежок', '2022-01-12', '', 3),
 ('листик', '2022-01-12', NULL, 3);
 
