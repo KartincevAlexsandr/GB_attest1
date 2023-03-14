@@ -224,7 +224,7 @@
         LEFT JOIN young_animal ya ON ya.Name = mc.Name
         LEFT JOIN home_animals ha ON ha.Id = mc.Genus_id;
 
-
+```
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме
 
     [ссылка](https://github.com/KartincevAlexsandr/GB_attest1/tree/main/animalsList/src/Model).
@@ -237,7 +237,7 @@
 	14.4 обучить животное новым командам    
 	14.5 Реализовать навигацию по меню    
 
-    [ссылка](https://github.com/KartincevAlexsandr/GB_attest1/tree/main/animalsList/src).
+    [ссылка](https://github.com/KartincevAlexsandr/GB_attest1/tree/main/animalsList/src) .
 
 
 15. Создайте класс Счетчик  у которого есть метод add(), увеличивающий̆
